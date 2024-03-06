@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main-header">Weather Search</h1>
+    <h4 class="sub-header">Type in the information you want</h4>
+    <div class="mainBox">
+    <div id="weatherInfo">
+    <div id="weatherBox">
+        <img id="icon"></img>
+    </div>
+    <div id="humidity">
+        <p class="data" id="humText"></p>
+    </div>
+    <div id="windSpeed">
+        <p class="data" id="windText"></p>
+    </div>
+    </div>
+    <form action="submit" id="form" class="form">
+        <label class="data" for="city">City</label>
+        <input type="text" id="city" required>
+        <button type="submit" class="button" type="button">Submit</button>
+    </form>
+</div>
+
+<p id="reference">Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
+</body>
+<script src="main.js"></script>
+</html>

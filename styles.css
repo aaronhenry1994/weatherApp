@@ -1,0 +1,74 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1) 0%,
+    rgba(36,35,146,1) 33%,
+    rgba(48, 48, 186, 1) 45%,
+    rgba(29, 113, 214, 1) 67%,
+    rgba(17, 155, 231, 1) 81%,
+    rgba(0, 212, 255, 1) 100%);
+}
+
+.main-header {
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+.sub-header {
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+.tempText   {
+    color: white;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+}
+
+.mainBox {
+    display: grid;
+    justify-content: center;
+}
+
+#weatherBox {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.cityText {
+    color: white;
+}
+
+#reference {
+    color: white;
+}
+
+#humidity {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100;
+    height: 100;
+    border: 1px solid white;
+}
+
+#windSpeed {
+    display: grid;
+    justify-content: center;
+    width: 100;
+    height: 100;
+    border: 1px solid white;
+}
+
+.data {
+    color: white;
+}
